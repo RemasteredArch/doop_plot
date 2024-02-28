@@ -52,7 +52,7 @@ bin_x = "(bin(1))"
 # plots the frequency of occurences over `summary_interval` seconds
 # some boxes are wider because they expand to fill places where there are no entries
 # good styles: boxes, impulses, histep, fillsteps
-plot sum = 0, y = 0, prev_day = 0, first_day = 0, day = 0, max = 0, bin = 0 \
+plot sum = 0, y = 0, prev_day = 0, max = 0, bin = 0 \
 	input_data using (bin(1)):(1) \
 		smooth frequency with fillsteps \
 		title sprintf("Total %s", summary_interval_title) ls 1, \
