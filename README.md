@@ -1,10 +1,12 @@
 # doop_plot
 Graphs frequency of log outputs from [Jaxydog/doop](https://github.com/Jaxydog/doop).
 
-Last tested from commit [`cabad396`](https://github.com/Jaxydog/doop/tree/cbad3961bd3f41a77d3de74e6fb0349f5ef72d47).
-Build and tested exclusively for gnuplot 5.2 patchlevel 8 on Ubuntu 20.04. It may work on other versions, but this is entirely untested.
-
 Developed alongside [Jaxydog](https://github.com/Jaxydog).
+
+## Requirements
+
+Last tested from Jaxydog/doop commit [`cabad396`](https://github.com/Jaxydog/doop/tree/cbad3961bd3f41a77d3de74e6fb0349f5ef72d47).
+Build and tested exclusively for gnuplot 5.2 patchlevel 8 on Ubuntu 20.04. It may work on other versions, but this is entirely untested.
 
 ## Usage
 ```
