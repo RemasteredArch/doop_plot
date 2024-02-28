@@ -9,6 +9,7 @@ window_height = 900
 default_font = "sans,12" # changing this is likely to break formatting
 
 set term wxt title script_title size window_width,window_height font default_font
+# set term pngcairo size window_width,window_height font default_font
 
 # time stuff
 set datafile separator comma
@@ -25,6 +26,7 @@ set xlabel "Date"
 set ylabel "Occurences"
 set grid
 set border 3 # sets the left and bottom sides, unsets the top and right sides
+set rmargin 5 # padding to stop overhang
 
 # key stuff
 set key above right
