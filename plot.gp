@@ -1,4 +1,4 @@
-set term wxt title "Doop log" size 1200,1200 font "sans,12"
+set term wxt title "Doop log" size 900,700 font "sans,12"
 set title "Doop log"
 input_data = "doop-log.txt.csv"
 
@@ -19,6 +19,10 @@ set xlabel "Date"
 set ylabel "Occurences"
 set grid
 set border 3 # sets the left and bottom sides, unsets the top and right sides
+
+# key stuff
+set key outside center bottom
+set key title " " font ",8"
 
 # graphs
 set linetype 1 linecolor "gray" linewidth 2 # total
