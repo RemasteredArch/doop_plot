@@ -18,7 +18,7 @@ It may work on other versions, but this is entirely untested.
 $ ./csv.sh
 $ gnuplot -p ./plot.gp
 ```
-Expected output (as of [`1209099`](https://github.com/RemasteredArch/doop_plot/tree/12090998dcdd49234589bc546055cf3bbdee733b)):
+Expected output (as of [`a2f9b15`](https://github.com/RemasteredArch/doop_plot/tree/a2f9b152716c1020dd9c9e11326a4b136debab3c)):
 ![gnuplot output](./demo/output.png)
 
 ## Disclaimer
