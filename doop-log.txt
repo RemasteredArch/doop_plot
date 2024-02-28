@@ -1,0 +1,426 @@
+[11-01-24 06:46:24.195889] (info) initialized logging thread
+[11-01-24 06:46:24.195941] (info) initialized storage directory
+[11-01-24 06:46:24.196716] (info) loaded localizations: [en-US]
+[11-01-24 06:46:24.196783] (info) initialized localizer instance
+[11-01-24 06:46:24.196937] (info) loaded environment variables
+[11-01-24 06:46:24.198268] (info) initialized asynchronous runtime
+[11-01-24 06:46:24.383702] (info) initialized client instance
+[11-01-24 06:46:24.383759] (info) started client process
+[11-01-24 06:46:24.674332] (info) established api connection
+[11-01-24 06:46:24.827124] (info) patched 6 server commands
+[11-01-24 06:46:25.062886] (info) patched 5 global commands
+[11-01-24 06:46:31.610385] (info) received interaction: <command #1194895097985253446 @000000000>
+[11-01-24 06:46:32.351924] (info) succeeded interaction: <command #1194895097985253446 @000000000>
+[11-01-24 14:01:47.853352] (warn) websocket connection error
+[11-01-24 19:04:59.542659] (warn) websocket connection error
+[12-01-24 01:43:40.693587] (warn) websocket connection error
+[12-01-24 05:12:55.418297] (warn) websocket connection error
+[12-01-24 10:43:58.674784] (warn) websocket connection error
+[12-01-24 11:29:33.383012] (warn) websocket connection error
+[12-01-24 13:26:27.827463] (warn) websocket connection error
+[12-01-24 15:13:45.135323] (warn) websocket connection error
+[12-01-24 15:18:39.844438] (warn) websocket connection error
+[12-01-24 20:51:09.521187] (warn) websocket connection error
+[13-01-24 00:04:00.789154] (info) received interaction: <component #1195518578124927078 @000000000>
+[13-01-24 00:04:01.567940] (info) received interaction: <component #1195518581593616445 @000000000>
+[13-01-24 00:04:01.713420] (info) succeeded interaction: <component #1195518578124927078 @000000000>
+[13-01-24 00:04:02.844219] (info) succeeded interaction: <component #1195518581593616445 @000000000>
+[14-01-24 00:47:52.896157] (info) received interaction: <component #1195892005667090495 @000000000>
+[14-01-24 00:47:53.070154] (info) succeeded interaction: <component #1195892005667090495 @000000000>
+[14-01-24 00:54:58.674051] (info) received interaction: <component #1195893791576567938 @000000000>
+[14-01-24 00:54:58.879063] (info) succeeded interaction: <component #1195893791576567938 @000000000>
+[14-01-24 00:55:26.732492] (info) received interaction: <component #1195893909067407410 @000000000>
+[14-01-24 00:55:26.828928] (info) succeeded interaction: <component #1195893909067407410 @000000000>
+[14-01-24 00:56:19.160871] (info) received interaction: <component #1195894129410969670 @000000000>
+[14-01-24 00:56:19.335459] (info) succeeded interaction: <component #1195894129410969670 @000000000>
+[14-01-24 00:58:13.235200] (info) received interaction: <component #1195894607255453736 @000000000>
+[14-01-24 00:58:13.490995] (info) succeeded interaction: <component #1195894607255453736 @000000000>
+[14-01-24 00:58:45.185293] (info) received interaction: <component #1195894741401866371 @000000000>
+[14-01-24 00:58:45.277059] (info) succeeded interaction: <component #1195894741401866371 @000000000>
+[14-01-24 01:02:16.336434] (info) received interaction: <modal #1195895627108859914 @000000000>
+[14-01-24 01:02:18.592859] (info) succeeded interaction: <modal #1195895627108859914 @000000000>
+[15-01-24 10:11:31.585511] (warn) websocket connection error
+[15-01-24 17:06:56.231945] (warn) websocket connection error
+[15-01-24 18:00:24.915961] (info) received interaction: <component #1196514239188312136 @000000000>
+[15-01-24 18:00:25.545063] (info) succeeded interaction: <component #1196514239188312136 @000000000>
+[15-01-24 18:00:28.077415] (info) received interaction: <modal #1196514252756889650 @000000000>
+[15-01-24 18:00:29.836522] (info) succeeded interaction: <modal #1196514252756889650 @000000000>
+[15-01-24 21:52:29.955971] (info) received interaction: <component #1196572644825387140 @000000000>
+[15-01-24 21:52:31.263744] (info) succeeded interaction: <component #1196572644825387140 @000000000>
+[15-01-24 22:19:14.578437] (info) received interaction: <component #1196579374682619955 @000000000>
+[15-01-24 22:19:15.591084] (info) succeeded interaction: <component #1196579374682619955 @000000000>
+[15-01-24 22:19:49.188938] (info) received interaction: <component #1196579520560513094 @000000000>
+[15-01-24 22:19:49.341299] (info) succeeded interaction: <component #1196579520560513094 @000000000>
+[16-01-24 11:17:06.200260] (warn) websocket connection error
+[16-01-24 14:10:05.313646] (warn) websocket connection error
+[17-01-24 12:22:04.251985] (warn) websocket connection error
+[17-01-24 16:19:07.076278] (info) received interaction: <command #1197213522145321070 @000000000>
+[17-01-24 16:19:08.337701] (info) succeeded interaction: <command #1197213522145321070 @000000000>
+[18-01-24 01:42:48.342834] (warn) websocket connection error
+[18-01-24 02:59:48.456563] (warn) websocket connection error
+[18-01-24 05:39:55.471633] (warn) websocket connection error
+[18-01-24 06:48:08.220112] (warn) websocket connection error
+[18-01-24 07:16:38.719673] (warn) websocket connection error
+[18-01-24 08:13:29.597586] (warn) websocket connection error
+[18-01-24 08:31:30.976190] (warn) websocket connection error
+[18-01-24 08:36:19.186762] (warn) websocket connection error
+[18-01-24 10:26:55.359411] (warn) websocket connection error
+[18-01-24 12:19:08.619144] (warn) websocket connection error
+[18-01-24 12:36:38.827612] (warn) websocket connection error
+[18-01-24 14:48:05.719473] (warn) websocket connection error
+[18-01-24 16:54:31.253619] (warn) websocket connection error
+[18-01-24 17:01:10.918183] (warn) websocket connection error
+[18-01-24 17:14:54.832940] (warn) websocket connection error
+[18-01-24 18:26:47.746228] (warn) websocket connection error
+[18-01-24 19:45:05.269420] (warn) websocket connection error
+[19-01-24 00:11:38.605200] (warn) websocket connection error
+[19-01-24 01:51:29.714455] (info) received interaction: <component #1197719953827176558 @000000000>
+[19-01-24 01:51:30.219193] (info) succeeded interaction: <component #1197719953827176558 @000000000>
+[19-01-24 04:10:29.838674] (warn) websocket connection error
+[19-01-24 04:44:04.813782] (warn) websocket connection error
+[19-01-24 10:33:30.158947] (warn) websocket connection error
+[19-01-24 12:50:50.075195] (warn) websocket connection error
+[19-01-24 14:41:12.321214] (warn) websocket connection error
+[19-01-24 16:53:12.184102] (warn) websocket connection error
+[19-01-24 17:01:17.766909] (warn) websocket connection error
+[19-01-24 19:16:11.501712] (warn) websocket connection error
+[19-01-24 20:41:04.698739] (warn) websocket connection error
+[20-01-24 06:09:43.765811] (info) received interaction: <component #1198147328134103110 @000000000>
+[20-01-24 06:09:43.989492] (info) succeeded interaction: <component #1198147328134103110 @000000000>
+[20-01-24 06:11:59.562899] (info) received interaction: <component #1198147898467164241 @000000000>
+[20-01-24 06:11:59.822072] (info) succeeded interaction: <component #1198147898467164241 @000000000>
+[20-01-24 06:13:34.573134] (info) received interaction: <component #1198148296112357496 @000000000>
+[20-01-24 06:13:34.742698] (info) succeeded interaction: <component #1198148296112357496 @000000000>
+[20-01-24 06:13:43.789059] (info) received interaction: <modal #1198148334515400825 @000000000>
+[20-01-24 06:13:53.433828] (info) succeeded interaction: <modal #1198148334515400825 @000000000>
+[20-01-24 06:14:31.033522] (info) received interaction: <component #1198148533245714542 @000000000>
+[20-01-24 06:14:31.877491] (info) succeeded interaction: <component #1198148533245714542 @000000000>
+[20-01-24 06:14:34.784499] (info) received interaction: <component #1198148549251170324 @000000000>
+[20-01-24 06:14:35.493644] (info) succeeded interaction: <component #1198148549251170324 @000000000>
+[20-01-24 06:21:37.903769] (info) received interaction: <component #1198150323659882546 @000000000>
+[20-01-24 06:21:38.259210] (info) succeeded interaction: <component #1198150323659882546 @000000000>
+[20-01-24 06:21:39.773716] (info) received interaction: <modal #1198150331842961479 @000000000>
+[20-01-24 06:21:41.505741] (info) succeeded interaction: <modal #1198150331842961479 @000000000>
+[20-01-24 06:22:42.211255] (info) received interaction: <component #1198150593487851670 @000000000>
+[20-01-24 06:22:43.037563] (info) succeeded interaction: <component #1198150593487851670 @000000000>
+[20-01-24 06:22:45.488265] (info) received interaction: <component #1198150607547154503 @000000000>
+[20-01-24 06:22:46.061274] (info) succeeded interaction: <component #1198150607547154503 @000000000>
+[20-01-24 06:42:27.805447] (info) received interaction: <component #1198155565461938257 @000000000>
+[20-01-24 06:42:28.099763] (info) succeeded interaction: <component #1198155565461938257 @000000000>
+[20-01-24 06:42:59.551001] (info) received interaction: <modal #1198155699075686421 @000000000>
+[20-01-24 06:43:01.646015] (info) succeeded interaction: <modal #1198155699075686421 @000000000>
+[20-01-24 06:54:25.019254] (info) received interaction: <component #1198158574610829354 @000000000>
+[20-01-24 06:54:25.323694] (info) succeeded interaction: <component #1198158574610829354 @000000000>
+[20-01-24 06:54:26.825379] (info) received interaction: <modal #1198158582127005767 @000000000>
+[20-01-24 06:54:28.814568] (info) succeeded interaction: <modal #1198158582127005767 @000000000>
+[21-01-24 04:52:39.022320] (warn) websocket connection error
+[22-01-24 06:56:06.957449] (warn) websocket connection error
+[22-01-24 08:03:04.747097] (warn) websocket connection error
+[22-01-24 11:28:50.305124] (warn) websocket connection error
+[23-01-24 01:21:45.119309] (warn) websocket connection error
+[23-01-24 03:27:29.194637] (info) received interaction: <component #1199193661905326100 @000000000>
+[23-01-24 03:27:29.586577] (info) succeeded interaction: <component #1199193661905326100 @000000000>
+[23-01-24 03:30:15.065149] (info) received interaction: <modal #1199194358201729034 @000000000>
+[23-01-24 03:30:18.076688] (info) succeeded interaction: <modal #1199194358201729034 @000000000>
+[23-01-24 03:32:52.266152] (info) received interaction: <component #1199195017806352424 @000000000>
+[23-01-24 03:32:52.561839] (info) succeeded interaction: <component #1199195017806352424 @000000000>
+[23-01-24 03:32:58.939325] (info) received interaction: <modal #1199195045568454747 @000000000>
+[23-01-24 03:33:01.008706] (info) succeeded interaction: <modal #1199195045568454747 @000000000>
+[23-01-24 06:52:43.526543] (warn) websocket connection error
+[23-01-24 15:45:56.677979] (warn) websocket connection error
+[23-01-24 16:57:25.827754] (warn) websocket connection error
+[24-01-24 05:59:03.267294] (warn) websocket connection error
+[24-01-24 07:29:05.697028] (warn) websocket connection error
+[24-01-24 12:18:34.995311] (warn) websocket connection error
+[24-01-24 18:43:18.024927] (warn) websocket connection error
+[24-01-24 19:35:30.256579] (warn) websocket connection error
+[24-01-24 19:37:18.187964] (warn) websocket connection error
+[24-01-24 20:59:20.580060] (warn) websocket connection error
+[25-01-24 03:00:33.050412] (warn) websocket connection error
+[25-01-24 04:53:03.095559] (warn) websocket connection error
+[25-01-24 11:51:15.546408] (warn) websocket connection error
+[25-01-24 14:05:47.577790] (warn) websocket connection error
+[25-01-24 17:54:39.759179] (warn) websocket connection error
+[25-01-24 18:00:45.479057] (warn) websocket connection error
+[25-01-24 19:29:36.553679] (warn) websocket connection error
+[25-01-24 20:09:09.894843] (warn) websocket connection error
+[25-01-24 22:42:44.309672] (warn) websocket connection error
+[26-01-24 00:03:16.699955] (warn) websocket connection error
+[26-01-24 01:45:48.617035] (warn) websocket connection error
+[26-01-24 12:45:35.252993] (warn) websocket connection error
+[26-01-24 14:47:18.256139] (warn) websocket connection error
+[26-01-24 20:31:56.863799] (warn) websocket connection error
+[26-01-24 20:36:55.622440] (warn) websocket connection error
+[26-01-24 21:27:24.220540] (warn) websocket connection error
+[26-01-24 22:36:19.977646] (warn) websocket connection error
+[27-01-24 09:18:29.235572] (warn) websocket connection error
+[28-01-24 03:37:19.450776] (warn) websocket connection error
+[30-01-24 08:53:44.502667] (warn) websocket connection error
+[30-01-24 09:53:18.795577] (warn) websocket connection error
+[30-01-24 14:55:10.300055] (warn) websocket connection error
+[30-01-24 17:17:55.489723] (warn) websocket connection error
+[31-01-24 08:29:02.239022] (warn) websocket connection error
+[31-01-24 09:20:35.897651] (warn) websocket connection error
+[31-01-24 11:10:03.747376] (warn) websocket connection error
+[31-01-24 20:00:53.996862] (warn) websocket connection error
+[31-01-24 20:09:59.791142] (warn) websocket connection error
+[01-02-24 00:50:35.402104] (warn) websocket connection error
+[01-02-24 05:23:15.815156] (warn) websocket connection error
+[01-02-24 09:02:08.217529] (info) established api connection
+[01-02-24 09:02:08.502783] (info) patched 6 server commands
+[01-02-24 09:02:09.032163] (info) patched 5 global commands
+[01-02-24 09:27:39.171183] (warn) websocket connection error
+[01-02-24 11:43:54.019571] (warn) websocket connection error
+[01-02-24 13:16:47.212478] (warn) websocket connection error
+[01-02-24 15:09:30.215698] (warn) websocket connection error
+[01-02-24 22:43:59.180112] (warn) websocket connection error
+[01-02-24 23:29:48.182322] (warn) websocket connection error
+[02-02-24 02:43:26.709506] (warn) websocket connection error
+[02-02-24 19:01:52.142199] (warn) websocket connection error
+[02-02-24 20:39:57.386781] (warn) websocket connection error
+[02-02-24 22:39:55.851226] (warn) websocket connection error
+[03-02-24 00:16:48.007950] (warn) websocket connection error
+[04-02-24 04:58:48.914709] (info) received interaction: <component #1203565300646154301 @000000000>
+[04-02-24 04:58:50.740477] (info) succeeded interaction: <component #1203565300646154301 @000000000>
+[04-02-24 04:58:52.081449] (info) received interaction: <component #1203565313933844510 @000000000>
+[04-02-24 04:58:52.871306] (info) succeeded interaction: <component #1203565313933844510 @000000000>
+[06-02-24 06:07:27.204010] (warn) websocket connection error
+[06-02-24 06:07:37.213823] (warn) failed to reconnect to the gateway
+[06-02-24 06:07:49.224283] (warn) failed to reconnect to the gateway
+[06-02-24 06:08:03.232765] (warn) failed to reconnect to the gateway
+[06-02-24 06:08:21.242706] (warn) failed to reconnect to the gateway
+[06-02-24 06:08:47.255012] (warn) failed to reconnect to the gateway
+[06-02-24 06:09:29.264248] (warn) failed to reconnect to the gateway
+[06-02-24 06:10:43.274898] (warn) failed to reconnect to the gateway
+[06-02-24 06:13:01.285471] (warn) failed to reconnect to the gateway
+[06-02-24 06:17:16.916322] (info) established api connection
+[06-02-24 06:17:17.220683] (info) patched 6 server commands
+[06-02-24 06:17:17.499772] (info) patched 5 global commands
+[06-02-24 10:20:08.035762] (warn) websocket connection error
+[06-02-24 10:59:31.853464] (warn) websocket connection error
+[06-02-24 19:58:34.246746] (warn) websocket connection error
+[07-02-24 14:00:18.800939] (warn) websocket connection error
+[07-02-24 17:16:03.506497] (warn) websocket connection error
+[07-02-24 21:00:46.801218] (warn) websocket connection error
+[08-02-24 00:48:58.786674] (warn) websocket connection error
+[08-02-24 06:16:15.334106] (warn) websocket connection error
+[08-02-24 11:13:07.389722] (warn) websocket connection error
+[08-02-24 13:37:57.077781] (warn) websocket connection error
+[08-02-24 15:40:50.471063] (warn) websocket connection error
+[09-02-24 00:03:50.787396] (warn) websocket connection error
+[09-02-24 17:09:52.381705] (warn) websocket connection error
+[09-02-24 18:25:07.633733] (warn) websocket connection error
+[11-02-24 15:51:19.285700] (warn) websocket connection error
+[12-02-24 16:04:51.128254] (warn) websocket connection error
+[12-02-24 17:11:02.382096] (warn) websocket connection error
+[12-02-24 21:28:33.754911] (warn) websocket connection error
+[12-02-24 22:03:06.407763] (warn) websocket connection error
+[12-02-24 22:38:03.166093] (warn) websocket connection error
+[12-02-24 23:33:32.786451] (warn) websocket connection error
+[13-02-24 01:48:30.367994] (warn) websocket connection error
+[13-02-24 02:39:32.655818] (warn) websocket connection error
+[13-02-24 09:00:38.048862] (warn) websocket connection error
+[13-02-24 18:26:59.957204] (warn) websocket connection error
+[13-02-24 18:36:00.759875] (warn) websocket connection error
+[13-02-24 22:04:25.639855] (warn) websocket connection error
+[14-02-24 03:28:05.559942] (warn) websocket connection error
+[14-02-24 09:03:13.087441] (warn) websocket connection error
+[14-02-24 10:53:03.663467] (warn) websocket connection error
+[14-02-24 12:26:25.476236] (warn) websocket connection error
+[14-02-24 21:48:29.705423] (warn) websocket connection error
+[14-02-24 23:46:26.199866] (info) received interaction: <component #1207472954141573181 @000000000>
+[14-02-24 23:46:26.392760] (info) succeeded interaction: <component #1207472954141573181 @000000000>
+[14-02-24 23:46:43.841406] (info) received interaction: <component #1207473028619960340 @000000000>
+[14-02-24 23:46:43.999426] (info) succeeded interaction: <component #1207473028619960340 @000000000>
+[14-02-24 23:51:03.619267] (info) received interaction: <modal #1207474117922652190 @000000000>
+[14-02-24 23:51:07.028773] (info) succeeded interaction: <modal #1207474117922652190 @000000000>
+[14-02-24 23:59:12.924536] (info) received interaction: <component #1207476170573086720 @000000000>
+[14-02-24 23:59:13.219361] (info) succeeded interaction: <component #1207476170573086720 @000000000>
+[14-02-24 23:59:48.935568] (info) received interaction: <modal #1207476321580617728 @000000000>
+[14-02-24 23:59:50.635939] (info) succeeded interaction: <modal #1207476321580617728 @000000000>
+[15-02-24 01:31:11.771340] (warn) websocket connection error
+[15-02-24 02:00:06.370992] (warn) websocket connection error
+[15-02-24 03:38:07.534840] (warn) websocket connection error
+[15-02-24 23:29:54.837356] (warn) websocket connection error
+[16-02-24 00:59:09.484593] (warn) websocket connection error
+[16-02-24 03:17:19.630860] (warn) websocket connection error
+[16-02-24 04:18:55.280029] (warn) websocket connection error
+[16-02-24 16:51:33.649135] (warn) websocket connection error
+[16-02-24 17:39:19.625308] (warn) websocket connection error
+[16-02-24 19:56:12.683780] (warn) websocket connection error
+[16-02-24 21:01:09.090591] (warn) websocket connection error
+[16-02-24 22:41:42.000711] (warn) websocket connection error
+[16-02-24 23:21:29.426087] (warn) websocket connection error
+[17-02-24 02:01:18.200107] (warn) websocket connection error
+[17-02-24 02:27:20.068218] (warn) websocket connection error
+[19-02-24 16:43:53.201865] (info) received interaction: <component #1209178555645300796 @000000000>
+[19-02-24 16:43:54.083992] (info) succeeded interaction: <component #1209178555645300796 @000000000>
+[19-02-24 16:44:02.837312] (info) received interaction: <component #1209178592236544050 @000000000>
+[19-02-24 16:44:03.716844] (info) succeeded interaction: <component #1209178592236544050 @000000000>
+[19-02-24 21:17:03.716467] (warn) websocket connection error
+[20-02-24 03:19:52.950311] (warn) websocket connection error
+[20-02-24 03:29:40.477958] (warn) websocket connection error
+[20-02-24 04:08:43.397589] (warn) websocket connection error
+[20-02-24 07:52:06.594438] (info) received interaction: <component #1209407117614653481 @000000000>
+[20-02-24 07:52:06.852244] (info) succeeded interaction: <component #1209407117614653481 @000000000>
+[20-02-24 07:52:20.594052] (info) received interaction: <component #1209407176104345630 @000000000>
+[20-02-24 07:52:20.854404] (info) succeeded interaction: <component #1209407176104345630 @000000000>
+[20-02-24 07:53:56.522113] (info) received interaction: <modal #1209407578715717642 @000000000>
+[20-02-24 07:53:59.870902] (info) succeeded interaction: <modal #1209407578715717642 @000000000>
+[20-02-24 07:54:18.365086] (info) received interaction: <component #1209407670302408755 @000000000>
+[20-02-24 07:54:18.592752] (info) succeeded interaction: <component #1209407670302408755 @000000000>
+[20-02-24 07:54:34.236525] (info) received interaction: <modal #1209407736832598046 @000000000>
+[20-02-24 07:54:36.364117] (info) succeeded interaction: <modal #1209407736832598046 @000000000>
+[20-02-24 07:54:49.344312] (info) received interaction: <component #1209407800204070913 @000000000>
+[20-02-24 07:54:49.442333] (info) succeeded interaction: <component #1209407800204070913 @000000000>
+[20-02-24 07:55:12.553787] (info) received interaction: <complete #1209407897336029184 @000000000>
+[20-02-24 07:55:14.566758] (info) received interaction: <complete #1209407906097791027 @000000000>
+[20-02-24 07:55:15.585847] (info) received interaction: <complete #1209407910334169109 @000000000>
+[20-02-24 07:55:18.605876] (warn) failed interaction: <complete #1209407897336029184 @000000000> - Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:18.890679] (warn) event handling failed: Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:19.692937] (info) received interaction: <complete #1209407927593472110 @000000000>
+[20-02-24 07:55:23.761353] (info) received interaction: <complete #1209407944249319505 @000000000>
+[20-02-24 07:55:25.543175] (warn) failed interaction: <complete #1209407906097791027 @000000000> - Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:25.731673] (warn) event handling failed: Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:26.991710] (warn) failed interaction: <complete #1209407910334169109 @000000000> - Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:27.168383] (warn) event handling failed: Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:29.414331] (info) received interaction: <component #1209407968261709864 @000000000>
+[20-02-24 07:55:29.531779] (info) succeeded interaction: <component #1209407968261709864 @000000000>
+[20-02-24 07:55:30.154811] (warn) failed interaction: <complete #1209407927593472110 @000000000> - Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:30.357438] (warn) event handling failed: Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:31.459143] (warn) failed interaction: <complete #1209407944249319505 @000000000> - Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:31.666743] (warn) event handling failed: Response error: status code 404, error: {"message": "Unknown interaction", "code": 10062}
+[20-02-24 07:55:40.763750] (info) received interaction: <component #1209408015808077824 @000000000>
+[20-02-24 07:55:40.859860] (info) succeeded interaction: <component #1209408015808077824 @000000000>
+[20-02-24 07:55:54.274831] (info) received interaction: <modal #1209408072364326962 @000000000>
+[20-02-24 07:55:55.474913] (info) succeeded interaction: <modal #1209408072364326962 @000000000>
+[20-02-24 07:56:00.859443] (info) received interaction: <component #1209408100235350036 @000000000>
+[20-02-24 07:56:01.062903] (info) succeeded interaction: <component #1209408100235350036 @000000000>
+[20-02-24 07:56:18.439184] (info) received interaction: <modal #1209408173975273482 @000000000>
+[20-02-24 07:56:20.174593] (info) succeeded interaction: <modal #1209408173975273482 @000000000>
+[20-02-24 07:56:50.040604] (info) received interaction: <component #1209408306519474217 @000000000>
+[20-02-24 07:56:50.477165] (info) succeeded interaction: <component #1209408306519474217 @000000000>
+[20-02-24 07:57:38.611381] (info) received interaction: <component #1209408510115454996 @000000000>
+[20-02-24 07:57:38.977627] (info) succeeded interaction: <component #1209408510115454996 @000000000>
+[20-02-24 15:37:55.612888] (warn) websocket connection error
+[20-02-24 16:27:36.652607] (warn) websocket connection error
+[20-02-24 21:37:24.294755] (warn) websocket connection error
+[21-02-24 01:01:28.243002] (warn) websocket connection error
+[21-02-24 01:38:47.990047] (warn) websocket connection error
+[21-02-24 03:42:17.897684] (warn) websocket connection error
+[21-02-24 10:09:58.357195] (warn) websocket connection error
+[21-02-24 12:23:51.672866] (info) received interaction: <component #1209837893892177981 @000000000>
+[21-02-24 12:23:51.912676] (info) succeeded interaction: <component #1209837893892177981 @000000000>
+[21-02-24 12:25:11.188509] (info) received interaction: <modal #1209838227427692614 @000000000>
+[21-02-24 12:25:15.320330] (info) succeeded interaction: <modal #1209838227427692614 @000000000>
+[21-02-24 17:21:26.990774] (warn) websocket connection error
+[21-02-24 17:44:09.755744] (info) received interaction: <component #1209918500169060392 @000000000>
+[21-02-24 17:44:10.138083] (info) succeeded interaction: <component #1209918500169060392 @000000000>
+[21-02-24 17:44:12.016903] (info) received interaction: <modal #1209918509635739780 @000000000>
+[21-02-24 17:44:14.063720] (info) succeeded interaction: <modal #1209918509635739780 @000000000>
+[21-02-24 21:48:25.871068] (info) received interaction: <component #1209979972475949056 @000000000>
+[21-02-24 21:48:26.759033] (info) succeeded interaction: <component #1209979972475949056 @000000000>
+[22-02-24 04:46:04.401926] (warn) websocket connection error
+[22-02-24 06:40:38.822059] (warn) websocket connection error
+[22-02-24 08:12:49.144823] (warn) websocket connection error
+[22-02-24 10:06:06.736234] (warn) websocket connection error
+[22-02-24 19:51:39.356595] (warn) websocket connection error
+[22-02-24 23:15:26.510367] (warn) websocket connection error
+[23-02-24 06:33:01.847482] (warn) websocket connection error
+[23-02-24 10:59:22.610327] (warn) websocket connection error
+[23-02-24 11:42:52.394154] (warn) websocket connection error
+[23-02-24 13:09:24.199411] (warn) websocket connection error
+[23-02-24 13:37:46.015695] (warn) websocket connection error
+[23-02-24 13:38:52.788765] (warn) websocket connection error
+[23-02-24 14:01:22.419223] (warn) websocket connection error
+[23-02-24 19:58:52.054343] (warn) websocket connection error
+[24-02-24 01:22:49.950815] (info) received interaction: <component #1210758704123617311 @000000000>
+[24-02-24 01:22:50.772684] (info) succeeded interaction: <component #1210758704123617311 @000000000>
+[24-02-24 01:22:51.730029] (info) received interaction: <component #1210758711728152637 @000000000>
+[24-02-24 01:22:52.461385] (info) succeeded interaction: <component #1210758711728152637 @000000000>
+[25-02-24 21:34:16.733593] (warn) websocket connection error
+[26-02-24 06:05:06.870249] (warn) websocket connection error
+[26-02-24 06:31:53.361447] (info) received interaction: <complete #1211561256691966013 @000000000>
+[26-02-24 06:31:53.664881] (info) succeeded interaction: <complete #1211561256691966013 @000000000>
+[26-02-24 06:31:55.198054] (info) received interaction: <complete #1211561264275390515 @000000000>
+[26-02-24 06:31:55.441308] (info) succeeded interaction: <complete #1211561264275390515 @000000000>
+[26-02-24 06:31:55.819704] (info) received interaction: <complete #1211561266968133652 @000000000>
+[26-02-24 06:31:56.162479] (info) succeeded interaction: <complete #1211561266968133652 @000000000>
+[26-02-24 06:31:57.099003] (info) received interaction: <complete #1211561272261222460 @000000000>
+[26-02-24 06:31:57.270804] (info) succeeded interaction: <complete #1211561272261222460 @000000000>
+[26-02-24 06:32:21.556062] (info) received interaction: <command #1211561374900293642 @000000000>
+[26-02-24 06:32:21.825301] (info) succeeded interaction: <command #1211561374900293642 @000000000>
+[26-02-24 06:32:24.437703] (info) received interaction: <complete #1211561387059585065 @000000000>
+[26-02-24 06:32:24.567577] (info) succeeded interaction: <complete #1211561387059585065 @000000000>
+[26-02-24 06:32:26.010362] (info) received interaction: <command #1211561393652895764 @000000000>
+[26-02-24 06:32:26.486016] (info) succeeded interaction: <command #1211561393652895764 @000000000>
+[26-02-24 06:32:37.422756] (info) received interaction: <command #1211561441497321472 @000000000>
+[26-02-24 06:32:37.622674] (info) succeeded interaction: <command #1211561441497321472 @000000000>
+[26-02-24 06:32:57.197496] (info) received interaction: <complete #1211561524448198668 @000000000>
+[26-02-24 06:32:57.292126] (info) succeeded interaction: <complete #1211561524448198668 @000000000>
+[26-02-24 06:33:17.919019] (info) received interaction: <command #1211561610909585478 @000000000>
+[26-02-24 06:33:18.086290] (info) succeeded interaction: <command #1211561610909585478 @000000000>
+[26-02-24 06:33:48.604794] (info) received interaction: <command #1211561740030967828 @000000000>
+[26-02-24 06:33:48.763616] (info) succeeded interaction: <command #1211561740030967828 @000000000>
+[26-02-24 06:35:03.262316] (info) received interaction: <command #1211562053165125662 @000000000>
+[26-02-24 06:35:03.803355] (info) succeeded interaction: <command #1211562053165125662 @000000000>
+[26-02-24 06:35:12.213203] (info) received interaction: <command #1211562090725249074 @000000000>
+[26-02-24 06:35:12.643437] (info) succeeded interaction: <command #1211562090725249074 @000000000>
+[26-02-24 06:35:26.829809] (info) received interaction: <command #1211562152058421278 @000000000>
+[26-02-24 06:35:27.629897] (info) succeeded interaction: <command #1211562152058421278 @000000000>
+[26-02-24 06:36:04.405152] (info) received interaction: <complete #1211562309604876358 @000000000>
+[26-02-24 06:36:04.606687] (info) succeeded interaction: <complete #1211562309604876358 @000000000>
+[26-02-24 06:36:15.134740] (info) received interaction: <complete #1211562354534387723 @000000000>
+[26-02-24 06:36:15.215945] (info) succeeded interaction: <complete #1211562354534387723 @000000000>
+[26-02-24 06:36:16.439667] (info) received interaction: <complete #1211562360100229170 @000000000>
+[26-02-24 06:36:16.554445] (info) succeeded interaction: <complete #1211562360100229170 @000000000>
+[26-02-24 06:36:17.498766] (info) received interaction: <complete #1211562364411973663 @000000000>
+[26-02-24 06:36:17.582906] (info) succeeded interaction: <complete #1211562364411973663 @000000000>
+[26-02-24 06:36:58.947859] (info) received interaction: <command #1211562538165084210 @000000000>
+[26-02-24 06:36:59.149147] (info) succeeded interaction: <command #1211562538165084210 @000000000>
+[26-02-24 06:38:14.790014] (info) received interaction: <command #1211562856496107600 @000000000>
+[26-02-24 06:38:14.939479] (info) succeeded interaction: <command #1211562856496107600 @000000000>
+[26-02-24 06:38:43.909174] (info) received interaction: <command #1211562978248495106 @000000000>
+[26-02-24 06:38:44.263350] (info) succeeded interaction: <command #1211562978248495106 @000000000>
+[26-02-24 06:38:56.543158] (info) received interaction: <complete #1211563031621017600 @000000000>
+[26-02-24 06:38:56.693810] (info) succeeded interaction: <complete #1211563031621017600 @000000000>
+[26-02-24 06:38:57.287308] (info) received interaction: <complete #1211563034410225735 @000000000>
+[26-02-24 06:38:57.402922] (info) succeeded interaction: <complete #1211563034410225735 @000000000>
+[26-02-24 06:38:59.703121] (info) received interaction: <complete #1211563044761505853 @000000000>
+[26-02-24 06:38:59.803048] (info) succeeded interaction: <complete #1211563044761505853 @000000000>
+[26-02-24 06:39:02.239387] (info) received interaction: <complete #1211563055557906452 @000000000>
+[26-02-24 06:39:02.416009] (info) succeeded interaction: <complete #1211563055557906452 @000000000>
+[26-02-24 06:39:03.476788] (info) received interaction: <complete #1211563060712710214 @000000000>
+[26-02-24 06:39:03.572195] (info) succeeded interaction: <complete #1211563060712710214 @000000000>
+[26-02-24 06:39:04.415119] (info) received interaction: <complete #1211563064680390706 @000000000>
+[26-02-24 06:39:04.507167] (info) succeeded interaction: <complete #1211563064680390706 @000000000>
+[26-02-24 06:39:04.853963] (info) received interaction: <complete #1211563066483802142 @000000000>
+[26-02-24 06:39:04.945003] (info) succeeded interaction: <complete #1211563066483802142 @000000000>
+[26-02-24 06:39:05.439888] (info) received interaction: <complete #1211563068572696598 @000000000>
+[26-02-24 06:39:05.512765] (info) succeeded interaction: <complete #1211563068572696598 @000000000>
+[26-02-24 06:39:06.555688] (info) received interaction: <complete #1211563073643745310 @000000000>
+[26-02-24 06:39:06.707686] (info) succeeded interaction: <complete #1211563073643745310 @000000000>
+[26-02-24 06:39:07.243457] (info) received interaction: <complete #1211563076550139915 @000000000>
+[26-02-24 06:39:07.326740] (info) succeeded interaction: <complete #1211563076550139915 @000000000>
+[26-02-24 06:39:08.202599] (info) received interaction: <complete #1211563080568541184 @000000000>
+[26-02-24 06:39:08.292685] (info) succeeded interaction: <complete #1211563080568541184 @000000000>
+[26-02-24 06:39:09.000872] (info) received interaction: <complete #1211563083898818580 @000000000>
+[26-02-24 06:39:09.139811] (info) succeeded interaction: <complete #1211563083898818580 @000000000>
+[26-02-24 06:39:12.995205] (info) received interaction: <command #1211563100634091540 @000000000>
+[26-02-24 06:39:13.150835] (info) succeeded interaction: <command #1211563100634091540 @000000000>
+[26-02-24 06:39:14.440714] (info) received interaction: <complete #1211563106644402216 @000000000>
+[26-02-24 06:39:14.532320] (info) succeeded interaction: <complete #1211563106644402216 @000000000>
+[26-02-24 06:39:16.684745] (info) received interaction: <command #1211563115892973588 @000000000>
+[26-02-24 06:39:16.841840] (info) succeeded interaction: <command #1211563115892973588 @000000000>
+[26-02-24 06:44:59.549562] (info) received interaction: <command #1211564554140651550 @000000000>
+[26-02-24 06:44:59.778867] (info) succeeded interaction: <command #1211564554140651550 @000000000>
+[26-02-24 06:45:35.952442] (info) received interaction: <command #1211564706859327488 @000000000>
+[26-02-24 06:45:36.158446] (info) succeeded interaction: <command #1211564706859327488 @000000000>
+[26-02-24 07:31:17.963686] (warn) websocket connection error
+[26-02-24 07:55:33.891616] (warn) websocket connection error
+[26-02-24 11:39:05.861967] (warn) websocket connection error
+[26-02-24 17:24:35.909722] (warn) websocket connection error
+[26-02-24 18:40:59.991287] (warn) websocket connection error
+[26-02-24 21:40:18.055931] (warn) websocket connection error
+[27-02-24 03:43:58.466093] (warn) websocket connection error
+[27-02-24 16:45:37.774563] (warn) websocket connection error
