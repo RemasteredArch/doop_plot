@@ -85,16 +85,16 @@ plot sum = 0, y = 0, prev_day = 0, first_day = 0, day = 0, max = 0, bin = 0 \
 			smooth frequency with steps \
 			notitle ls 4, \
 	'' using @bin_x:( \
-			day == 0 ? (day = @bin_x, 1/0) : (day = @bin_x, prev_day == day \
+			day = @bin_x, prev_day == day \
 				? (y = y + 1, 0) \
 				: ( \
 					prev_day = day, \
 					bin = bin + 1, \
 					sum = sum + y, \
 					y > max ? (max = y, y = 1) : y = 1, \
-					day == first_day ? 1/0 : sum / (bin + 1) \
+					sum / (bin + 1) \
 				) \
-		)) \
+		) \
 		smooth frequency with lines \
 		title "Cumulative Average" ls 5, \
 	keyentry title " ", \
