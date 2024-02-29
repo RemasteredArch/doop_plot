@@ -10,8 +10,14 @@ window_width = 1200
 window_height = 900
 default_font = "sans,12" # changing this is likely to break formatting
 
+# terminal
 set term wxt title script_title size window_width,window_height font default_font
+set term x11 title script_title size window_width,window_height font default_font # for testing
 # set term pngcairo size window_width,window_height font default_font
+# 	set output plot.png
+
+# set term pdfcairo size (window_width/100),(window_height)/100
+# 	set output plot.pdf
 
 # time stuff
 set datafile separator comma
@@ -51,11 +57,64 @@ bin_x = "(bin(1))"
 
 set nonlinear y via sqrt(y) inverse y**2
 
-# gather data
-plot max = 90 \
-	input_data using @bin_x:(1 + 2) \
-		smooth frequency with fillsteps \
+# get the first day, the last day, and the total number of days with logs
+plot first_day = 0, last_day = 0, prev_day = 0, day = 0, day_count = 0, \
+	input_data using @bin_x:( \
+		day_count == 0 ? first_day = @bin_x : (0), \
+		day = @bin_x, prev_day == day \
+		? (0) \
+		: ( \
+			prev_day = day, \
+			day_count = day_count + 1, \
+			last_day = @bin_x, \
+			0 \
+		) \
+	) \
+		smooth frequency with lines \
 		notitle ls 5
+
+print day_count, first_day, last_day
+
+array total_sums[day_count]
+array total_avgs[day_count]
+
+# gather data for a true cumulative average
+array last_day_sums[4] # total, info, warn, error
+plot last_day = 0, prev_day = 0, day = 0, y = 0, sum = 0, day_count = 0, max = 0, \
+	input_data using @bin_x:( \
+		day = @bin_x, prev_day == day \
+		? (y = y + 1, 0) \
+		: ( \
+			prev_day = day, \
+			day_count = day_count + 1, \
+			sum = sum + y, \
+			y > max ? (max = y, y = 1) : y = 1, \
+			last_day = day, \
+			total_sums[day_count] = sum, \
+			total_avgs[day_count] = sum / (day_count + 1), \
+			total_avgs[day_count] \
+		) \
+	) \
+		smooth frequency with lines \
+		notitle ls 5
+
+print total_avgs, total_sums, last_day
+exit
+
+# how the average line is currently implemented:
+#	'' using @bin_x:( \
+#			day = @bin_x, prev_day == day \
+#				? (y = y + 1, 0) \
+#				: ( \
+#					prev_day = day, \
+#					bin = bin + 1, \
+#					sum = sum + y, \
+#					y > max ? (max = y, y = 1) : y = 1, \
+#					sum / (bin + 1) \
+#				) \
+#		) \
+#		smooth frequency with lines \
+#		title "Cumulative Average" ls 5, \
 
 # plots the frequency of occurences over `summary_interval` seconds
 # some boxes are wider because they expand to fill places where there are no entries
@@ -114,10 +173,5 @@ plot sum = 0, y = 0, prev_day = 0, max = 0, bin = 0 \
 # print max
 set yrange [0:(floor(max / 10) * 10 + (max % 10 == 0 ? 0 : 10))]
 
-replot input_data using (bin(1)):(1) \
-			smooth frequency with filledcurves \
-			notitle ls 2, \
-			\
-
-#show plot
-#refresh
+replot (sin(x) + 2) with lines notitle # random graph to test if `replot` is functioning correctly
+# the wxt terminal, on my setup at least, does *not* function correctly and has to be resized before replot works
