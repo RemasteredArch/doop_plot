@@ -49,6 +49,14 @@ set style fill transparent solid 0.5 border # fill with 25% opacity and a border
 bin(x) = summary_interval * floor(timecolumn(x) / summary_interval)
 bin_x = "(bin(1))"
 
+set nonlinear y via sqrt(y) inverse y**2
+
+# gather data
+plot max = 90 \
+	input_data using @bin_x:(1 + 2) \
+		smooth frequency with fillsteps \
+		notitle ls 5
+
 # plots the frequency of occurences over `summary_interval` seconds
 # some boxes are wider because they expand to fill places where there are no entries
 # good styles: boxes, impulses, histep, fillsteps
@@ -103,7 +111,13 @@ plot sum = 0, y = 0, prev_day = 0, max = 0, bin = 0 \
 # needs to track last_day to be able to plot the last day in the log
 # maybe use replot <graph> to graph the average line, and just using the initial plot to store the data into an array?
 
+# print max
 set yrange [0:(floor(max / 10) * 10 + (max % 10 == 0 ? 0 : 10))]
-set nonlinear y via sqrt(y) inverse y**2
 
-replot
+replot input_data using (bin(1)):(1) \
+			smooth frequency with filledcurves \
+			notitle ls 2, \
+			\
+
+#show plot
+#refresh
